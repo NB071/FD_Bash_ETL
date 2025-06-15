@@ -1,0 +1,12 @@
+{
+	"fileLocations": [
+		{
+			"URIs": [
+				"https://fd-analytics-bucket.s3.ca-central-1.amazonaws.com/cleaned/dataset.json"
+			]
+		}
+	],
+	"globalUploadSettings": {
+		"format": "JSON"
+	}
+}
