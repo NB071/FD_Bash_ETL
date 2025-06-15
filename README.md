@@ -18,7 +18,7 @@ This project processes raw delivery data (`dataset.csv`) through:
 ## 📁 Project Structure
 
 ```text
-ETL_BASH/
+FD_Bash_ETL/
 ├── assets/                     # Supporting files
 │   ├── delivery_dashboard.pdf  # Exported QuickSight dashboard
 │   ├── manifest.json           # Used to load JSON into QuickSight
