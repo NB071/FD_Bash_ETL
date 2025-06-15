@@ -12,7 +12,7 @@ This project implements a complete **ETL (Extract-Transform-Load)** pipeline in 
 
 This project processes raw delivery data (`dataset.csv`) through:
 
-1. **Extraction** from remote source (Kaggle)
+1. **Extraction** from remote source ([Kaggle](https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset))
 2. **Transformation** into a clean, validated dataset
 3. **Loading** to an AWS S3 bucket
 4. **Visualization** via **Amazon QuickSight** with a prepared `manifest.json`
