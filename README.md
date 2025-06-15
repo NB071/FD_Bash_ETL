@@ -55,7 +55,7 @@ ETL_BASH/
 Run all stages in order with:
 
 ```bash
-./scripts/main.sh
+cd scripts && ./main.sh
 ```
 
 ## ☁️ AWS Setup
