@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://nimabargestan.com/wp-content/uploads/2025/06/FD-Bash-Etl-1.png" alt="ETL Pipeline Diagram" width="500" height="500">
+</p>
+
 # 🛠️ FD_Bash_ETL: Delivery Data Pipeline with AWS + Bash
 
 This project implements a complete **ETL (Extract-Transform-Load)** pipeline in **Bash and AWK**, designed to clean and prepare delivery dataset files, convert them to JSON, and optionally visualize them in **Amazon QuickSight (QS)** using a manifest.
@@ -70,8 +74,8 @@ aws configure
 
 Your cleaned dataset will be uploaded to:
 
-s3://<your-bucket-name>/<your-bucket-path>/dataset.csv
-s3://<your-bucket-name>/<your-bucket-path>/dataset.json
+- s3://`<your-bucket-name>`/`<your-bucket-path>`/dataset.csv
+- s3://`<your-bucket-name>`/`<your-bucket-path>`/dataset.json
 
 *where `<your-bucket-name>` & `<your-bucket-path>` are clearly indicated as constants defined inside **3_load.sh** along with other ones*
 
