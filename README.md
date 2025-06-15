@@ -98,6 +98,43 @@ Browse visual assets in the `assets/`folder:
 
 ---
 
+## 📊 What I Learned from the Dashboard
+
+After running the full ETL pipeline and visualizing the data in Amazon QuickSight, several meaningful patterns started to emerge from the delivery dataset:
+
+### 🌆 City Performance  
+- **Semi-Urban areas** had the **slowest delivery times**, likely due to longer routes or less optimized infrastructure compared to urban centers.
+
+### 📦 Total Deliveries  
+- The dataset covers **over 38,000 successful deliveries** — all cleaned and validated through our Bash + AWK pipeline.
+
+### 🕒 When Do People Order Most?  
+- **9 PM** turned out to be the busiest hour for deliveries, reflecting a typical late dinner or snack-time spike.
+
+### 🌫️ Weather Matters  
+- Deliveries were **noticeably slower on foggy days**, which isn’t too surprising — visibility and road conditions play a big role.
+
+### 🚦 Traffic + Weather Combo  
+- The worst-case scenario? **Fog combined with traffic jams**. It had a dramatic impact on delivery times.
+
+### 🎉 Festivals & Multi-Orders  
+- During festival periods, delivery times increased.  
+- Also, the more deliveries a person handled at once, the longer each one took — as expected.
+
+### 📅 Order Trends Over Time  
+- There were consistent order spikes every week, and an unusual jump in early **March 2022** — possibly tied to a local event or holiday.
+
+### 🛵 Vehicle Insights  
+- **Electric scooters** seemed to perform slightly better than other vehicles — maybe because they’re easier to maneuver in traffic-heavy areas.
+
+### ⭐ Who Are the Top-Rated Delivery People?  
+- The best-rated delivery workers tended to fall within the **25–35 age range**, possibly reflecting a balance of experience and energy.
+
+### 🌍 Where Deliveries Happen  
+- By mapping the locations, we spotted dense clusters of restaurant origins and delivery zones — showing us the busiest areas and outer edges where delays were more common.
+
+---
+
 ## 🧾 License
 
 This project is licensed under the MIT License.
